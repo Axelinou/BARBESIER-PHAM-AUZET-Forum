@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 120px;
+    width: auto;
+    border: black solid 1px;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container h1 {
+    margin: 100px;
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.container h2 {
+    margin: 50px;
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+.container p {
+    font-weight: 545;
+    font-family: Arial, serif;
+    font-size: 25px;
+    line-height: 40px;
+}
