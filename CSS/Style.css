@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.FondBleuClaire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194,211,254);
+    width: 100%;
+    height: 100px;
+}
+
+.FondBleuFoncer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(106,121,255);
+    width: 90vw;
+    height: 50px;
+}
+
+.Parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.FondBleuPrésentationBienvenue{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194,211,254);
+    margin: 50px;
+    padding: 30px;
+    text-align: center;
+}
+
+.FondBlanc{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 50px;
+
+}
+
+.ContenueAccueil{
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+}
