@@ -8,25 +8,41 @@
 
 .container {
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
-.container h1 {
+.containerTexte {
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: rgb(194,211,254);
+    width: 90vw;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.containerTexte h1 {
     margin: 100px;
     text-decoration: underline;
     font-size: 40px;
     font-family: sans-serif;
+
 }
 
-.container h2 {
+.containerTexte h2 {
     margin: 50px;
     font-size: 30px;
     text-decoration: underline;
     font-family: sans-serif;
 }
 
-.container p {
+.containerTexte p {
     font-weight: 545;
     font-family: Arial, serif;
     font-size: 25px;
@@ -34,6 +50,7 @@
 }
 
 .FondBleuClaire {
+    border-radius: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,6 +60,7 @@
 }
 
 .FondBleuFoncer {
+    border-radius: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,5 +73,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 50px;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.LiensFooter{
+    color: white;
+    text-decoration: none;
     margin: 50px;
 }
