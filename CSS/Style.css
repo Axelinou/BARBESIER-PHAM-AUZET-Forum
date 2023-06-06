@@ -8,7 +8,7 @@ body{
 
 .FondBleuClaire {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: rgb(194,211,254);
     width: 100%;

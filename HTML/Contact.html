@@ -5,23 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
-    <link rel="stylesheet" href="../CSS/Style.css">
+    <link rel="stylesheet" href="../CSS/Contactez.css">
 </head>
 <body>
     
     <div class="FondBleuClaire">
         <div class="FondBleuFoncer">
-            <p class="TitrePage">Accueil</p>
+            <p class="TitrePage">Reddit 2.0</p>
         </div>
     </div>
 
     <div class="Parent">
+        <div class="FondBleuFoncer">
+            <h1 class="TitrePage">Nous Contactez</h1>
+        </div>
+    </div>
 
+    <div class="LiensRetourAccueil">
+        <a class="TexteLiensRetourAccueil" href="./Index.html">Retour à l'accueil</a>
+    </div>
+
+    <div class="container">
+        <form action="">
+            <h1>Contactez</h1>
+
+            <div class="form-group">
+                <label for="username">Nom</label>
+                <input type="text" class="form-control" name="username" id="username" placeholder="Nom" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Surname">Prenom</label>
+                <input type="text" class="form-control" name="Surname" id="Surname" placeholder="Prenom" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="text" class="form-control" name="Email" id="Email" placeholder="Email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="subject">Message</label>
+                <textarea id="subject" class="form-control2" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+            </div>
+
+            <input type="submit" class="btn" value="Envoyer">
+        </form>
     </div>
 
     <div class="FondBleuClaire">
         <div class="FondBleuFoncer">
-            <p class="TitrePage">Accueil</p>
+            <a class="LiensFooter" href="./Politique-confidentialite-donnees.html">Politique de confidentialité</a>
+            <a class="LiensFooter" href="./Contact.html">Nous contacter</a>
+            <a class="LiensFooter" href="./CGU.html">CGU</a>
+            <a class="LiensFooter" href="./Equipe.html">L'équipe</a>
         </div>
     </div>
 </body>
