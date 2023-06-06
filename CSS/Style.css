@@ -18,8 +18,41 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(106,121,255);
-    width: 90vw;
+    width: 83vw;
     height: 50px;
+} 
+
+.LogoConnexion{
+    width: 60px;
+    height: 60px;
+}
+
+.LiensConnexion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    color: rgb(106,121,255);
+    text-decoration: none;
+    margin-left: 60px;
+}
+
+.Connexion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CréationCompte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(106,121,255);
 }
 
 .FondBleuFoncerDescription{
