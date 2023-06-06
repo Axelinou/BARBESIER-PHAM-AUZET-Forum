@@ -122,6 +122,7 @@ ul{
     justify-content: center;
     align-items: center;
     margin-right: 20px;
+    overflow: auto;
 }
 
 .DateHeurSujet{
@@ -281,12 +282,26 @@ ul{
 .FondBleuClaireMessages{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     background-color: rgb(194,211,254);
     border-radius: 5%;
     width: 80vw;
     height: 35vh;
+    margin-bottom: 50px;
+
+}
+
+.ContenueFondBlancMessage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ContenueFondBlanc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .FondBlancMessages{
@@ -315,6 +330,20 @@ ul{
 
 .ContenueRéaction{
     display: flex;
+    margin-left: 100px;
+}
+
+.FondBlancRéaction{
+    display: flex;
+    background-color: white;
+    border: 2px solid rgb(106,121,255);
+    margin: 20px;
+    color: rgb(106,121,255);
+    font-size: 20px;
+}
+
+.TitreRéponse{
+    margin-left: 50px;
 }
 
 /*Footer*/
