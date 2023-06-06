@@ -346,6 +346,12 @@ ul{
     margin-left: 50px;
 }
 
+.TexteCGU{
+    background-color: rgb(194,211,254);
+    padding: 50px;
+    border-radius: 5%;
+}
+
 /*Footer*/
 
 .LiensFooter{
