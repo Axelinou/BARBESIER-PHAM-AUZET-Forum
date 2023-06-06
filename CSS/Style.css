@@ -60,9 +60,21 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(106,121,255);
-    width: 90vw;
+    width: 83vw;
     height: 50px;
     border-radius: 5%;
+}
+
+.LiensRetourAccueil{
+    display: flex;
+}
+
+.TexteLiensRetourAccueil{
+    text-decoration: none;
+    color:rgb(106,121,255);
+    font-size: 20px;
+    text-align: left;
+    margin-left: 200px;
 }
 
 .TitreForum{
@@ -218,26 +230,7 @@ ul{
     text-align: right;
 }
 
-/*L'équipe Header */
-
-.LiensRetourAccueil{
-    display: flex;
-}
-
-.TexteLiensRetourAccueil{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    text-align: left;
-}
-
 /*L'équipe Photo */
-
-.TexteLiensRetourAccueil{
-    text-align: left;
-    color: rgb(106,121,255) ;
-    margin-left: 100px;
-}
 
 .FondBleuClairePhoto{
     display: flex;
