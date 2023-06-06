@@ -24,6 +24,16 @@ body{
     height: 50px;
 }
 
+.FondBleuFoncerDescription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(106,121,255);
+    width: 90vw;
+    height: 50px;
+    border-radius: 5%;
+}
+
 .Parent{
     display: flex;
     justify-content: center;
@@ -42,6 +52,7 @@ body{
     margin: 50px;
     padding: 30px;
     text-align: center;
+    border-radius: 5%;
 }
 
 .FondBlancPrésentation{
@@ -50,6 +61,7 @@ body{
     justify-content: center;
     background-color: white;
     padding: 20px;
+    border-radius: 5%;
 }
 
 .ContenueAccueil{
@@ -77,6 +89,7 @@ ul{
     width:35vw;
     text-align: center;
     overflow: auto;
+    border-radius: 5%;
 }
 
 .FondBlancSujet{
@@ -88,6 +101,7 @@ ul{
     width: 28vw;
     height: 100px;
     margin-top: 30px;
+    border-radius: 5%;
 }
 
 .TitreSujet{
@@ -123,6 +137,8 @@ ul{
     margin-bottom: 50px;
     text-align: center;
     overflow: auto;
+    border-radius: 5%;
+
 }
 
 .FondBlancDernierMessage{
@@ -134,6 +150,7 @@ ul{
     width: 28vw;
     height: 20vh;
     margin-bottom: 30px;
+    border-radius: 5%;
 }
 
 .TitreDateHeureDernierMessage{
@@ -154,7 +171,6 @@ ul{
 .AuteurPoste{
     text-align: right;
 }
-
 
 /*Index Footer*/
 
