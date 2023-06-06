@@ -6,7 +6,7 @@ body{
 
 .FondBleuClaire {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: rgb(194,211,254);
     width: 100%;
@@ -263,7 +263,6 @@ ul{
 .FondBlancPrésentationEquipe{
     display: flex;
     align-items: center;
-
     background-color: white;
     border-radius: 5%;
     width: 70vw;
@@ -275,6 +274,47 @@ ul{
     margin: 20px ;
     text-align: left;
     font-size: 20px;
+}
+
+/*Topic */
+
+.FondBleuClaireMessages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(194,211,254);
+    border-radius: 5%;
+    width: 80vw;
+    height: 35vh;
+}
+
+.FondBlancMessages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5%;
+    width: 70vw;
+    height: 20vh;
+    overflow: auto;
+    padding: 0px 10px;
+}
+
+.TitreMessagePostes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    height:50px;
+}
+
+.Auteur{
+    text-align: right;
+}
+
+.ContenueRéaction{
+    display: flex;
 }
 
 /*Footer*/
