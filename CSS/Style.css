@@ -58,6 +58,10 @@ body{
     margin-left: 60px;
 }
 
+.LiensConnexion :hover{
+    zoom: 110%;
+}
+
 .Connexion{
     display: flex;
     flex-direction: column;
@@ -230,6 +234,10 @@ ul{
     border-radius: 5%;
 }
 
+.FondBlancDernierMessage :hover{
+    zoom:102%;
+}
+
 .TitreDateHeureDernierMessage{
     display: flex;
     justify-content: center;
@@ -381,11 +389,42 @@ ul{
 
 .FondBlancRéaction{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     border: 2px solid rgb(106,121,255);
     margin: 20px;
     color: rgb(106,121,255);
     font-size: 20px;
+    width: 100px;
+    height: 40px;
+}
+
+.Reaction{
+    background-color: transparent;
+    border: transparent;
+}
+
+.RéactionLikeDislike{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PhotoLike{
+    width: 50px;
+    height: 50px;
+}
+
+.PhotoDislike{
+    width: 40px;
+    height: 40px;
+}
+
+.RéactionLikeDislike :hover{
+    zoom: 110%;
+    transform: rotate(360deg);
 }
 
 .TitreRéponse{
@@ -405,6 +444,10 @@ ul{
     text-decoration: none;
     margin: 50px;
     font-size: 20px;
+}
+
+.FondBlancSujet :hover{
+    zoom: 105%;
 }
 
 /*Responsive*/
@@ -550,7 +593,7 @@ ul{
     }
   }
 
-  @media (max-width: 366px) {
+  @media (max-width: 550px) {
 
     /*REsponsive Téléphone Accueil Sujet*/
 
