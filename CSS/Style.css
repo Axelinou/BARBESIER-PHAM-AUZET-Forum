@@ -365,7 +365,7 @@ ul{
     background-color: white;
     border-radius: 5%;
     width: 70vw;
-    height: 20vh;
+    height: 22vh;
     overflow: auto;
     padding: 0px 10px;
 }
@@ -634,4 +634,9 @@ ul{
         width: 15vw;
     }
 
+  }
+
+  .MessageTopics {
+    height: 10vh;
+    width: 70vh;
   }
