@@ -69,6 +69,48 @@ body{
     align-items: center;
 }
 
+/*Déconnexion*/
+
+.Déconnexion{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(106,121,255);
+    position: fixed;
+    right: 20px;
+    top: 400px
+}
+
+.ImageDéconnexion{
+    width: 50px;
+    height: 50px;
+}
+
+.LiensDéconnexion{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TexteDéconnexion{
+    color: white;
+    font-size: 15px;
+}
+
+.LiensDéconnexionBas{
+    text-decoration: none;
+    color: rgb(106,121,255);
+}
+
+.DéconnexionBas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
+
+/*Page Connexion*/
 .CréationCompte{
     display: flex;
     justify-content: center;
@@ -256,6 +298,40 @@ ul{
 
 .AuteurPoste{
     text-align: right;
+}
+
+/*Nouveau messages*/
+
+.inputtext{
+    background-color: rgb(194,211,254) ;
+    width: 80vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+[name=newmsg]{
+    width: 70vw;
+    height: 10vh;
+    border-radius: 5%;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.EnvoieNouveauxMessages{
+    border: 2px solid rgb(106,121,255);
+    background-color:rgb(194,211,254) ;
+    color:rgb(106,121,255);
+    margin-left: 10px;
+    font-size: 15px;
 }
 
 /*L'équipe Photo */
