@@ -17,6 +17,6 @@ Ceci est un projet de forum développé dans le cadre de [Ynov]. Le forum est co
 
 # Configuration du projet (IMPORTANT !!!)
 
-* Premier etape : importer le SQL en créant une base de donnée vierge auparavant 
+* Premier etape : importer le SQL en créant une base de donnée vierge auparavant (Utiliser WAMP !)
 * Deuxieme etape : ouvrer le fichier "sql.go" tout seul, sans l'ouvrir avec le dossier puis executer le (surtout si vous utilisez VScode)
 * Derniere etape : taper "localhost:8080" sur votre navigateur
