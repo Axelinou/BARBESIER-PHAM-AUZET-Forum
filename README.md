@@ -1,21 +1,21 @@
-#Forum
+# Forum
 
 Ceci est un projet de forum développé dans le cadre de [Ynov]. Le forum est conçu pour permettre aux utilisateurs de discuter de différents sujets, de poser des questions et d'interagir les uns avec les autres.
 
-#Fonctionnalités
+# Fonctionnalités
 
-*Inscription des utilisateurs : Les utilisateurs peuvent créer un compte pour accéder au forum.
-*Connexion : Les utilisateurs enregistrés peuvent se connecter à leurs comptes.
-*Création de sujets : Les utilisateurs peuvent créer de nouveaux sujets de discussion.
-*Commentaires : Les utilisateurs peuvent commenter les sujets existants.
+* Inscription des utilisateurs : Les utilisateurs peuvent créer un compte pour accéder au forum.
+* Connexion : Les utilisateurs enregistrés peuvent se connecter à leurs comptes.
+* Création de sujets : Les utilisateurs peuvent créer de nouveaux sujets de discussion.
+* Commentaires : Les utilisateurs peuvent commenter les sujets existants.
 
-#Technologies utilisées
+# Technologies utilisées
 
-*Langage de programmation : [Golang, HTML, CSS]
-*Base de données : [MySQL]
-*Outils de développement : [VScode, WAMP]
+* Langage de programmation : [Golang, HTML, CSS]
+* Base de données : [MySQL]
+* Outils de développement : [VScode, WAMP]
 
-#Configuration du projet
+# Configuration du projet
 
 Clonez ce dépôt sur votre machine locale.
 Installez les dépendances en exécutant la commande suivante : [commande d'installation des dépendances, par exemple : npm install].
