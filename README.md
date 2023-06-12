@@ -15,10 +15,8 @@ Ceci est un projet de forum développé dans le cadre de [Ynov]. Le forum est co
 * Base de données : [MySQL]
 * Outils de développement : [VScode, WAMP]
 
-# Configuration du projet
+# Configuration du projet (IMPORTANT !!!)
 
-Clonez ce dépôt sur votre machine locale.
-Installez les dépendances en exécutant la commande suivante : [commande d'installation des dépendances, par exemple : npm install].
-Configurez les variables d'environnement nécessaires, telles que les informations de connexion à la base de données, le port d'écoute, etc.
-Lancez l'application en exécutant la commande : [commande pour lancer l'application, par exemple : npm start].
-Accédez à l'application dans votre navigateur à l'adresse suivante : [adresse locale du serveur, par exemple : http://localhost:3000].
+* Premier etape : importer le SQL en créant une base de donnée vierge auparavant 
+* Deuxieme etape : ouvrer le fichier "sql.go" tout seul, sans l'ouvrir avec le dossier puis executer le (surtout si vous utilisez VScode)
+* Derniere etape : taper "localhost:8080" sur votre navigateur
