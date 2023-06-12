@@ -536,6 +536,10 @@ ul{
         align-items: center;
     }
 
+    .Déconnexion{
+        display: none;
+    }
+
     /*Responsive Header*/
 
     .FondBleuFoncerHeader{
