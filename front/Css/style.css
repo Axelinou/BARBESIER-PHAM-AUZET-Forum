@@ -1,0 +1,136 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(179, 179, 179);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(70, 70, 70);
+    width: 99.9vw;
+    height: 120px;
+    border: solid black 1px;
+}
+
+.TitreForum{
+    text-align: center;
+    color: white;
+}
+
+.LogoForum{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.Connexion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.LogoConnexion{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.Parent{
+    display: flex;
+}
+
+/*Navbar Left*/
+
+.NavbarLeft{
+    background-color: rgb(123, 123, 123);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15vw;
+    height: 90vh;
+}
+
+.TexteNavbar{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+/*Topics*/
+
+.ParentTopics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.Topics{
+    background-color: rgb(70, 70, 70);
+    width: 60vw;
+    height: 30vh;
+    color: white;
+    margin: 20px;
+}
+
+.TitreTopics{
+    width: 50vw;
+    height: 10vh;
+    margin: 20px;
+}
+
+.DatesHeuresTopics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.Répondre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(123, 123, 123);
+    border: 1px solid rgb(70, 70, 70);
+    width: 100px;
+    height: 30px;
+}
+
+.Réponse{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.Réaction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.Like{
+    width: 60px;
+    height: 60px;
+}
+
+.Dislike{
+    width: 45px;
+    height: 45px;   
+}
