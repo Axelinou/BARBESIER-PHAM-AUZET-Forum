@@ -7,7 +7,7 @@
 body{
     min-height: 100vh;
     display: flex;
-    background: #f5f5f5;
+    background: rgb(123, 123, 123);
     font-family: sans-serif;
 }
 
@@ -21,7 +21,7 @@ body{
     height: 100%;
     width: 100%;
     padding: 20px;
-    background: white;
+    background: rgb(70, 70, 70);
     border-radius: 4px;
     box-shadow: 0 8px 16px rgba(0,0,0,.3);
 }
@@ -29,13 +29,13 @@ body{
 .container form h1 {
     text-align: center;
     margin-bottom: 24px;
-    color: #333;
+    color: black;
 }
 
 .container form .form-control {
     width: 100%;
     height: 40px;
-    background: #f5f5f5;
+    background: rgb(123, 123, 123);
     border-radius: 4px;
     border: 1px solid silver;
     margin: 10px 0 18px 0;
@@ -43,8 +43,6 @@ body{
 }
 
 .container form .btn{
-    margin-left: 50%;
-    transform: translateX(-50%);
     width: 120px;
     height: 34px;
     border: none;
@@ -54,9 +52,24 @@ body{
     font-size: 16px;
     text-transform: uppercase;
     color: white;
-    transition: 3s;
 }
 
 .container form .btn:hover {
     opacity: .7;
+}
+
+.TexteLiensRetourAccueil {
+    color: black;
+}
+
+.LiensFooter {
+    color: black;
+}
+
+.TexteLiensRetourAccueil{
+    color: black;
+}
+
+.CréationCompte {
+    color: black;
 }
