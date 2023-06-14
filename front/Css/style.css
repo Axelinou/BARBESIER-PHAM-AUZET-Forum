@@ -64,8 +64,9 @@ h1{
 
 .Parent{
     display: flex;
+    flex-direction: column;
     position: relative;
-    top: 15vh;
+    top: 20vh;
     left: 10vw;
     overflow: hidden;
 }
@@ -191,4 +192,96 @@ h1{
 .Dislike{
     width: 45px;
     height: 45px;   
+}
+
+/*Page CGU*/
+
+.CGU{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5vh;
+    background-color: rgb(123, 123, 123);
+    border: 2px solid rgb(70, 70, 70) ;
+    padding: 20px;
+    width: 60vw;
+    height: 90vh;
+}
+
+.TexteCGU{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 55vh;
+    color: white;
+    overflow: hidden;
+}
+
+/*L'équipe Photo */
+
+.ParentImageEquipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(123, 123, 123);
+    width: 70vw;
+}
+
+.ImageEquipe{
+    width: 300px;
+    height: 450px;
+    margin: 20px;
+}
+
+.NomEquipe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 130px;
+}
+
+.Nom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 10vh;
+}
+
+.ParentNomEquipe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+/*L'équipe Présentation */
+
+.ParentPrésentationEquipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(123, 123, 123);
+    width: 70vw;
+    height: 20vh;
+    margin: 20px 0px;
+}
+
+.DescriptifPrésentationEquipe{
+    display: flex;
+    align-items: center;
+    width: 70vw;
+    height: 20vh;
+    overflow: auto;
+}
+
+.PrésentationEquipe{
+    margin: 20px ;
+    text-align: left;
+    font-size: 20px;
+    color: white;
 }

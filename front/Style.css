@@ -1,0 +1,722 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Index Header */
+
+.FondBleuClaireHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194,211,254);
+    width: 100%;
+    height: 100px;   
+}
+
+.FondBleuClaire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194,211,254);
+    width: 100%;
+    height: 100px;
+}
+
+.FondBleuFoncerHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(106,121,255);
+    width: 83vw;
+    height: 50px;
+} 
+
+.FondBleuFoncer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(106,121,255);
+    width: 83vw;
+    height: 50px;
+} 
+
+.LogoConnexion{
+    width: 60px;
+    height: 60px;
+}
+
+.LiensConnexion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    color: rgb(106,121,255);
+    text-decoration: none;
+    margin-left: 60px;
+}
+
+.LiensConnexion :hover{
+    zoom: 110%;
+}
+
+.Connexion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Déconnexion*/
+
+.Déconnexion{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(106,121,255);
+    position: fixed;
+    right: 20px;
+    top: 400px
+}
+
+.ImageDéconnexion{
+    width: 50px;
+    height: 50px;
+}
+
+.LiensDéconnexion{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TexteDéconnexion{
+    color: white;
+    font-size: 15px;
+}
+
+.LiensDéconnexionBas{
+    text-decoration: none;
+    color: rgb(106,121,255);
+}
+
+.DéconnexionBas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
+
+/*Page Connexion*/
+.CréationCompte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(106,121,255);
+}
+
+.FondBleuFoncerDescription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(106,121,255);
+    width: 83vw;
+    height: 50px;
+    border-radius: 5%;
+}
+
+.LiensRetourAccueil{
+    display: flex;
+}
+
+.TexteLiensRetourAccueil{
+    text-decoration: none;
+    color:rgb(106,121,255);
+    font-size: 20px;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.TitreForum{
+    color: white;
+}
+
+.TitrePage{
+    color: white;
+}
+
+.Parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+/*Index Présentation */
+
+.FondBleuPrésentationBienvenue{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194,211,254);
+    text-align: center;
+    border-radius: 5%;
+    width: 80vw;
+    height: 35vh;
+    margin: 30px;
+}
+
+.FondBlancPrésentation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5%;
+    overflow: auto;
+    width: 70vw;
+    height: 20vh;
+}
+
+.ContenueAccueil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ul{
+    list-style-type: none;
+}
+
+.LiensTopic{
+    color: black;
+    text-decoration: none;
+}
+
+/*Index Sujet */
+
+.FondBleuClaireSujet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(194,211,254);
+    height: 100vh;
+    width:35vw;
+    text-align: center;
+    overflow: auto;
+    border-radius: 5%;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.FondBlancSujet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    width: 28vw;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 5%;
+}
+
+.TitreSujet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    overflow: auto;
+}
+
+.DateHeurSujet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.ContenueSujet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Index Dernier message */
+
+.FondBleuClaireDernierMessage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(194,211,254);
+    height: 100vh;
+    width:35vw;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    overflow: auto;
+    border-radius: 5%;
+}
+
+.FondBlancDernierMessage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    width: 28vw;
+    height: 20vh;
+    margin-bottom: 30px;
+    border-radius: 5%;
+}
+
+.FondBlancDernierMessage :hover{
+    zoom:102%;
+}
+
+.TitreDateHeureDernierMessage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TitrePoste{
+    margin-right: 10rem;
+}
+
+.Messages{
+    display: flex;
+    font-size: 20px;
+    overflow: auto;
+}
+
+.AuteurPoste{
+    text-align: right;
+}
+
+/*Nouveau messages*/
+
+.inputtext{
+    background-color: rgb(194,211,254) ;
+    width: 80vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+[name=newmsg]{
+    width: 70vw;
+    height: 10vh;
+    border-radius: 5%;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.EnvoieNouveauxMessages{
+    border: 2px solid rgb(106,121,255);
+    background-color:rgb(194,211,254) ;
+    color:rgb(106,121,255);
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+/*L'équipe Photo */
+
+.FondBleuClairePhoto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(194,211,254);
+    border-radius: 5%;
+    padding: 2rem 8rem;
+}
+
+.FondBlancPhoto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 1rem 3rem;
+    border-radius: 5%;
+}
+
+.ImageEquipe{
+    width: 300px;
+    height: 450px;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+.NomEquipe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FondBlancNomEquipe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5%;
+    margin: 10px 100px;
+    padding: 2px 10px;
+}
+
+/*L'équipe Présentation */
+
+.FondBleuClairePrésentationEquipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(194,211,254);
+    border-radius: 5%;
+    width: 80vw;
+    height: 35vh;
+    margin-top: 20px;
+}
+
+.FondBlancPrésentationEquipe{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5%;
+    width: 70vw;
+    height: 20vh;
+    overflow: auto;
+}
+
+.PrésentationEquipe{
+    margin: 20px ;
+    text-align: left;
+    font-size: 20px;
+}
+
+/*Topic */
+
+.FondBleuClaireMessages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(194,211,254);
+    border-radius: 5%;
+    width: 80vw;
+    height: 35vh;
+    margin-bottom: 50px;
+
+}
+
+.ContenueFondBlancMessage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ContenueFondBlanc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.FondBlancMessages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5%;
+    width: 70vw;
+    height: 22vh;
+    overflow: auto;
+    padding: 0px 10px;
+}
+
+.TitreMessagePostes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    height:50px;
+}
+
+.Auteur{
+    text-align: right;
+}
+
+.ContenueRéaction{
+    display: flex;
+    margin-left: 100px;
+}
+
+.FondBlancRéaction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 2px solid rgb(106,121,255);
+    margin: 20px;
+    color: rgb(106,121,255);
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+}
+
+.Reaction{
+    background-color: transparent;
+    border: transparent;
+}
+
+.RéactionLikeDislike{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PhotoLike{
+    width: 50px;
+    height: 50px;
+}
+
+.PhotoDislike{
+    width: 40px;
+    height: 40px;
+}
+
+.RéactionLikeDislike :hover{
+    zoom: 110%;
+    transform: rotate(360deg);
+}
+
+.TitreRéponse{
+    margin-left: 50px;
+}
+
+.TexteCGU{
+    background-color: rgb(194,211,254);
+    padding: 50px;
+    border-radius: 5%;
+}
+
+/*Footer*/
+
+.LiensFooter{
+    color: white;
+    text-decoration: none;
+    margin: 50px;
+    font-size: 20px;
+}
+
+.FondBlancSujet :hover{
+    zoom: 105%;
+}
+
+/*Responsive*/
+
+@media (max-width: 1206px) {
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Déconnexion{
+        display: none;
+    }
+
+    /*Responsive Header*/
+
+    .FondBleuFoncerHeader{
+        width: 90vw;
+        height: 5vh;
+    }
+
+    .FondBleuClaireHeader{
+        flex-direction: column;
+        width: 100vw;
+        height: 20vh;
+    }
+
+    .LiensConnexion{
+        margin:0;
+    }
+
+    .TexteLiensRetourAccueil{
+        margin: 0px;
+    }
+
+    /*Responsive Accueil Sujet*/
+
+    .ContenueAccueil{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .FondBleuClaireSujet{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 50px;
+        padding:0;
+        width: 85vw;
+        height: 50vh;
+    }
+
+    .Sujet{
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        height: 40vh;
+    }
+
+    ul{
+        margin:0;
+    }
+
+    .FondBlancSujet{
+        width: 70vw;
+        height: 20vh;
+    }
+
+    .ContenueSujet{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /*Responsive Accueil Dernier Massage*/
+
+    .FondBleuClaireDernierMessage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+        width: 85vw;
+        height: 50vh;
+    }
+
+    .FondBlancDernierMessage{
+        width: 70vw;
+        height: 20vh;
+    }
+
+    .TitreDateHeureDernierMessage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ContenueDernierMesages{
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        height: 40vh;
+    }
+
+    /*Responsive Equipe Photo*/
+
+    .FondBleuClairePhoto{
+        width: 60vw;
+    }
+
+    .ImageEquipe{
+        width: 20vw;
+        height: 25vh;
+    }
+
+    .FondBlancNomEquipe{
+        text-align: center;
+        margin: 15px;
+    }
+
+    form{
+        margin-top: 50px;
+    }
+
+    /*Responsive Footer*/
+
+    .FondBleuFoncer {
+      flex-direction: column;
+      width: 90vw;
+      height: 20vh;      
+    }
+    .FondBleuClaire{
+        flex-direction: column;
+        width: 100vw;
+        height: 30vh;
+        margin-top: 50px;
+    }
+    .LiensFooter{
+        margin:10px;
+    }
+  }
+
+  @media (max-width: 550px) {
+
+    /*REsponsive Téléphone Accueil Sujet*/
+
+    .FondBlancSujet{
+        width: 55vw;
+    }
+
+    .TitreDateHeureDernierMessage{
+        flex-direction: column;
+        width: 55vw;
+    }
+
+    .FondBlancDernierMessage{
+        flex-direction: column;
+        width: 55vw;
+        height: 30vh;
+        font-size: 15px;
+    }
+
+    .TitrePoste{
+        margin:0px;
+        padding: 0px;
+    }
+
+    .Messages{
+        width: 60vw;
+        height: 10vh;
+        font-size: 15px;
+    }
+
+    .ImageEquipe{
+        width: 80px;
+        height: 110px;
+    }
+
+    .FondBlancNomEquipe{
+        font-size: 10px;
+        width: 15vw;
+    }
+
+  }
+
+  .MessageTopics {
+    height: 10vh;
+    width: 70vh;
+  }
