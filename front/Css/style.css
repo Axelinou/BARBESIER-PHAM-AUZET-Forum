@@ -13,13 +13,20 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: rgb(70, 70, 70);
-    width: 99.9vw;
-    height: 120px;
+    width: 100vw;
+    height: 15vh;
     border: solid black 1px;
+    position: fixed;
+    top: 0px;
+    z-index: 3;
 }
 
 .TitreForum{
     text-align: center;
+    color: white;
+}
+
+h1{
     color: white;
 }
 
@@ -43,8 +50,24 @@ body{
     margin-right: 20px;
 }
 
+.LiensDéconnexion{
+    background-color: rgb(70, 70, 70);
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+
+.ImageDéconenxion{
+    width: 80px;
+    height: 80px;
+}
+
 .Parent{
     display: flex;
+    position: relative;
+    top: 15vh;
+    left: 10vw;
+    overflow: hidden;
 }
 
 /*Navbar Left*/
@@ -55,7 +78,10 @@ body{
     flex-direction: column;
     align-items: center;
     width: 15vw;
-    height: 90vh;
+    height: 100vh;
+    position: fixed;
+    left: 0px;
+    top: 15vh;
 }
 
 .TexteNavbar{
@@ -64,7 +90,6 @@ body{
     text-decoration: none;
     font-size: 20px;
     text-align: center;
-
 }
 
 /*Topics*/
@@ -74,9 +99,26 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80vw;
+    width: 40vw;
     height: 100vh;
     overflow: hidden;
+    margin: 20px;
+}
+
+.ParentDernierMessages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.LiensTopics{
+    text-decoration: none;
+    color: white;
 }
 
 .Topics{
@@ -84,13 +126,29 @@ body{
     width: 60vw;
     height: 30vh;
     color: white;
-    margin: 20px;
+    margin: 10px;
+}
+
+.ParentTitreTopics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 10vh;
 }
 
 .TitreTopics{
-    width: 50vw;
+    color: white;
+    font-size: 30px;
+    width: 25vw;
     height: 10vh;
-    margin: 20px;
+}
+
+.MessagesTopics{
+    width: 30vw;
+    height: 110vh;
+    margin-left: 20px;
 }
 
 .DatesHeuresTopics{
