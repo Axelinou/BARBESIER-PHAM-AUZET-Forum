@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    background: rgb(123, 123, 123);
+    font-family: sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 500px;
+    max-width: 90%;
+    color: white;
+}
+
+.container form {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+<<<<<<< HEAD
+    background: rgb(123, 123, 123);
+=======
+    background: rgb(70, 70, 70);
+>>>>>>> e070e52c2412f6a27188e8cd9c32848b4521cd0c
+    border-radius: 4px;
+    box-shadow: 0 8px 16px rgba(0,0,0,.3);
+}
+
+.container form h1 {
+    text-align: center;
+    margin-bottom: 24px;
+<<<<<<< HEAD
+    color: white;
+=======
+    color: black;
+>>>>>>> e070e52c2412f6a27188e8cd9c32848b4521cd0c
+}
+
+.container form .form-control {
+    width: 100%;
+    height: 40px;
+<<<<<<< HEAD
+    background: rgb(179, 179, 179);
+=======
+    background: rgb(123, 123, 123);
+>>>>>>> e070e52c2412f6a27188e8cd9c32848b4521cd0c
+    border-radius: 4px;
+    border: 1px solid white;
+    margin: 10px 0 18px 0;
+    padding: 0 10px;
+}
+
+.container form .btn{
+<<<<<<< HEAD
+    margin-left: 25%;
+    transform: translateX(-50%);
+=======
+>>>>>>> e070e52c2412f6a27188e8cd9c32848b4521cd0c
+    width: 120px;
+    height: 34px;
+    border: none;
+    outline: none;
+    background: rgb(70, 70, 70);
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.container form .btn:hover {
+    opacity: .7;
+}
+
+<<<<<<< HEAD
+.CréationCompte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.LiensCréationCompte{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+=======
+.TexteLiensRetourAccueil {
+    color: black;
+}
+
+.LiensFooter {
+    color: black;
+}
+
+.TexteLiensRetourAccueil{
+    color: black;
+}
+
+.CréationCompte {
+    color: black;
+>>>>>>> e070e52c2412f6a27188e8cd9c32848b4521cd0c
+}
