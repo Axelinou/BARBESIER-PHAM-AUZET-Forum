@@ -64,7 +64,7 @@ h1{
 
 .Parent{
     display: flex;
-    flex-direction: column;
+    
     position: relative;
     top: 20vh;
     left: 10vw;
@@ -100,7 +100,7 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 40vw;
+    width: 38vw;
     height: 100vh;
     overflow: hidden;
     margin: 20px;
@@ -108,13 +108,11 @@ h1{
 
 .ParentDernierMessages{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 40vw;
+    width: 38vw;
     height: 100vh;
     overflow: hidden;
-    margin: 20px;
+    margin: 33px;
 }
 
 .LiensTopics{
