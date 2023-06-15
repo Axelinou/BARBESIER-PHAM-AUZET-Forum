@@ -64,7 +64,7 @@ h1{
 
 .Parent{
     display: flex;
-    
+    flex-direction: column;
     position: relative;
     top: 20vh;
     left: 10vw;
@@ -303,4 +303,10 @@ textarea {
     background-color:rgb(123, 123, 123);
     color:rgb(0, 0, 0);
     font-size: 15px;
+}
+
+.contenuTopic {
+    border: solid;
+    margin: 20px;
+    background: rgb(108, 108, 108);
 }
