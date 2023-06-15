@@ -71,6 +71,14 @@ h1{
     overflow: hidden;
 }
 
+.ParentIndex{
+    display: flex;
+    position: relative;
+    top: 20vh;
+    left: 10vw;
+    overflow: hidden;
+}
+
 /*Navbar Left*/
 
 .NavbarLeft{
