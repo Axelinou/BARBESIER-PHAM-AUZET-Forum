@@ -167,6 +167,10 @@ h1{
     font-size: 20px;
 }
 
+.DatesHeuresTopics h1 {
+    height: 35px;
+}
+
 .Répondre{
     display: flex;
     justify-content: center;
@@ -325,4 +329,10 @@ textarea {
     background-color:rgb(123, 123, 123);
     color:rgb(0, 0, 0);
     margin-bottom: 20px;
+}
+
+.Reponse1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
