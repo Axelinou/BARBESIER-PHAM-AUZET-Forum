@@ -101,6 +101,18 @@ h1{
     text-align: center;
 }
 
+.retourAceuil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px;
+    text-align: center;
+    background-color:rgb(123, 123, 123);
+    color:rgb(0, 0, 0);
+    margin-bottom: 20px;
+    width: 50vw;
+}
+
 /*Topics*/
 
 .ParentTopics{
@@ -199,6 +211,33 @@ h1{
     width: 45px;
     height: 45px;   
 }
+ /**/
+textarea {
+    width: 80vh;
+    height: 30vw;
+    border-radius: 5px;
+    border: 1px solid;
+    box-shadow: 1px 1px 1px #999;
+}
+
+.inputtext {
+    margin-top: 20px;
+}
+
+.EnvoieNouveauxMessages{
+    margin-top: 10px;
+    height: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color:rgb(123, 123, 123);
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.contenuTopic {
+    border: solid;
+    margin: 20px;
+    background: rgb(108, 108, 108);
+}
 
 /*Page CGU*/
 
@@ -292,37 +331,4 @@ h1{
     color: white;
 }
 
-textarea {
-    width: 80vh;
-    height: 30vw;
-    border-radius: 5px;
-    border: 1px solid;
-    box-shadow: 1px 1px 1px #999;
-}
 
-.inputtext {
-    margin-top: 20px;
-}
-
-.EnvoieNouveauxMessages{
-    margin-top: 10px;
-    height: 30px;
-    border: 2px solid rgb(0, 0, 0);
-    background-color:rgb(123, 123, 123);
-    color:rgb(0, 0, 0);
-    font-size: 15px;
-}
-
-.contenuTopic {
-    border: solid;
-    margin: 20px;
-    background: rgb(108, 108, 108);
-}
-
-.retourAceuil {
-    border: solid 1px;
-    text-align: center;
-    background-color:rgb(123, 123, 123);
-    color:rgb(0, 0, 0);
-    margin-bottom: 20px;
-}
