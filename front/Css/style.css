@@ -65,6 +65,8 @@ h1{
 .Parent{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
     top: 20vh;
     left: 10vw;
@@ -105,12 +107,14 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 1px;
-    text-align: center;
-    background-color:rgb(123, 123, 123);
-    color:rgb(0, 0, 0);
-    margin-bottom: 20px;
+    background-color: rgb(123, 123, 123);
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
     width: 50vw;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid rgb(70, 70, 70);
 }
 
 /*Topics*/
@@ -121,9 +125,7 @@ h1{
     justify-content: center;
     align-items: center;
     width: 38vw;
-    height: 100vh;
     overflow: hidden;
-    margin: 20px;
 }
 
 .ParentDernierMessages{
@@ -257,35 +259,21 @@ button.EnvoieNouveauxMessages{
     background-color: rgb(123, 123, 123);
     color: white;
     border: 2px solid rgb(70, 70, 70);
+    margin: 10px;
+    padding: 10px;
 }
 
-/**/
-
-textarea {
-    width: 80vh;
-    height: 30vw;
-    border-radius: 5px;
-    border: 1px solid;
-    box-shadow: 1px 1px 1px #999;
-}
-
-.inputtext {
-    margin-top: 20px;
-}
-
-.EnvoieNouveauxMessages{
-    margin-top: 10px;
-    height: 30px;
-    border: 2px solid rgb(0, 0, 0);
-    background-color:rgb(123, 123, 123);
-    color:rgb(0, 0, 0);
-    font-size: 15px;
-}
-
-.contenuTopic {
-    border: solid;
-    margin: 20px;
-    background: rgb(108, 108, 108);
+.RetourTopics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(123, 123, 123);
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    width: 50vw;
+    padding: 10px;
+    border: 2px solid rgb(70, 70, 70);
 }
 
 /*Page CGU*/
@@ -380,12 +368,3 @@ textarea {
     color: white;
 }
 
-
-
-.retourAceuil {
-    border: solid 1px;
-    text-align: center;
-    background-color:rgb(123, 123, 123);
-    color:rgb(0, 0, 0);
-    margin-bottom: 20px;
-}
