@@ -318,3 +318,11 @@ textarea {
     margin: 20px;
     background: rgb(108, 108, 108);
 }
+
+.retourAceuil {
+    border: solid 1px;
+    text-align: center;
+    background-color:rgb(123, 123, 123);
+    color:rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
