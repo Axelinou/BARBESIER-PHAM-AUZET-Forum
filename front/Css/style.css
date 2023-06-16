@@ -79,6 +79,8 @@ h1{
     top: 20vh;
     left: 10vw;
     overflow: hidden;
+    width: 80vw;
+    height: 100vh;
 }
 
 /*Navbar Left*/
@@ -119,35 +121,62 @@ h1{
 
 /*Topics*/
 
+.TiterSujet{
+    color: rgb(70, 70, 70);
+}
+
+.TitreDernierMessages{
+    color: rgb(70, 70, 70);
+}
+
 .ParentTopics{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 38vw;
+    width: 40vw;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.ParentTopics2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
     overflow: hidden;
 }
 
 .ParentDernierMessages{
     display: flex;
-    justify-content: center;
-    width: 38vw;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
     height: 100vh;
-    overflow: hidden;
-    margin: 33px;
-}
+    margin-top: -25px;
+
+  }
 
 .LiensTopics{
     text-decoration: none;
     color: white;
 }
 
-.Topics{
+.Topics2{
     background-color: rgb(70, 70, 70);
-    width: 60vw;
+    width: 40vw;
     height: 30vh;
     color: white;
-    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.Topics{
+    background-color: rgb(70, 70, 70);
+    width: 70vw;
+    height: 30vh;
+    color: white;
+    margin: 20px 0px;
 }
 
 .ParentTitreTopics{
@@ -155,7 +184,7 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50vw;
+    width: 30vw;
     height: 10vh;
 }
 
@@ -196,7 +225,7 @@ h1{
 
 .ParentRéponse{
     background-color: rgb(70, 70, 70);
-    width: 60vw;
+    width: 70vw;
     height: 30vh;
     color: white;
     margin: 10px;
@@ -239,7 +268,7 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50vw;
+    width: 70vw;
     height: 30vh;
 }
 
@@ -251,7 +280,7 @@ h1{
     align-items: center;
     font-size: 15px;
     background-color: rgb(123, 123, 123);
-    width: 30vw;
+    width: 50vw;
     height: 10vh;
 }
 
@@ -363,4 +392,3 @@ button.EnvoieNouveauxMessages{
     font-size: 20px;
     color: white;
 }
-
