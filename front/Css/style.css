@@ -281,14 +281,12 @@ button.EnvoieNouveauxMessages{
 .CGU{
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: column;
     position: relative;
-    top: 5vh;
     background-color: rgb(123, 123, 123);
-    border: 2px solid rgb(70, 70, 70) ;
+    border: 2px solid rgb(70, 70, 70);
     padding: 20px;
     width: 60vw;
-    height: 90vh;
 }
 
 .TexteCGU{
@@ -296,9 +294,7 @@ button.EnvoieNouveauxMessages{
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 55vh;
     color: white;
-    overflow: hidden;
 }
 
 /*L'équipe Photo */
