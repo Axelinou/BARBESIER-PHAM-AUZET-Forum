@@ -2,193 +2,27 @@
 
 @media (max-width: 1206px) {
 
-    body{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .LogoForum{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin-left: 10px;
     }
 
-    .Déconnexion{
+    .Connexion{
         display: none;
     }
 
-    /*Responsive Header*/
-
-    .FondBleuFoncerHeader{
-        width: 90vw;
-        height: 5vh;
+    .LiensDéconnexion{
+        display: none;
     }
 
-    .FondBleuClaireHeader{
-        flex-direction: column;
-        width: 100vw;
-        height: 20vh;
+    .Options{
+        display: block;
     }
 
-    .LiensConnexion{
-        margin:0;
+    .ImageOptions{
+        width: 70px;
+        height: 70px;
     }
-
-    .TexteLiensRetourAccueil{
-        margin: 0px;
-    }
-
-    /*Responsive Accueil Sujet*/
-
-    .ContenueAccueil{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .FondBleuClaireSujet{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        margin-bottom: 50px;
-        padding:0;
-        width: 85vw;
-        height: 50vh;
-    }
-
-    .Sujet{
-        justify-content: center;
-        align-items: center;
-        width: 80vw;
-        height: 40vh;
-    }
-
-    ul{
-        margin:0;
-    }
-
-    .FondBlancSujet{
-        width: 70vw;
-        height: 20vh;
-    }
-
-    .ContenueSujet{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    /*Responsive Accueil Dernier Massage*/
-
-    .FondBleuClaireDernierMessage{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0px;
-        padding: 0px;
-        width: 85vw;
-        height: 50vh;
-    }
-
-    .FondBlancDernierMessage{
-        width: 70vw;
-        height: 20vh;
-    }
-
-    .TitreDateHeureDernierMessage{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .ContenueDernierMesages{
-        justify-content: center;
-        align-items: center;
-        width: 80vw;
-        height: 40vh;
-    }
-
-    /*Responsive Equipe Photo*/
-
-    .FondBleuClairePhoto{
-        width: 60vw;
-    }
-
-    .ImageEquipe{
-        width: 20vw;
-        height: 25vh;
-    }
-
-    .FondBlancNomEquipe{
-        text-align: center;
-        margin: 15px;
-    }
-
-    form{
-        margin-top: 50px;
-    }
-
-    /*Responsive Footer*/
-
-    .FondBleuFoncer {
-      flex-direction: column;
-      width: 90vw;
-      height: 20vh;      
-    }
-    .FondBleuClaire{
-        flex-direction: column;
-        width: 100vw;
-        height: 30vh;
-        margin-top: 50px;
-    }
-    .LiensFooter{
-        margin:10px;
-    }
-  }
-
-  @media (max-width: 550px) {
-
-    /*REsponsive Téléphone Accueil Sujet*/
-
-    .FondBlancSujet{
-        width: 55vw;
-    }
-
-    .TitreDateHeureDernierMessage{
-        flex-direction: column;
-        width: 55vw;
-    }
-
-    .FondBlancDernierMessage{
-        flex-direction: column;
-        width: 55vw;
-        height: 30vh;
-        font-size: 15px;
-    }
-
-    .TitrePoste{
-        margin:0px;
-        padding: 0px;
-    }
-
-    .Messages{
-        width: 60vw;
-        height: 10vh;
-        font-size: 15px;
-    }
-
-    .ImageEquipe{
-        width: 80px;
-        height: 110px;
-    }
-
-    .FondBlancNomEquipe{
-        font-size: 10px;
-        width: 15vw;
-    }
-
-  }
-
-  .MessageTopics {
-    height: 10vh;
-    width: 70vh;
-  }
+}
