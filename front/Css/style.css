@@ -208,6 +208,7 @@ h1{
 }
 
 .MessagesTopics{
+    overflow-wrap: break-word;
     width: 30vw;
     height: 110vh;
     margin-left: 70px;
