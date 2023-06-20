@@ -580,3 +580,161 @@ button.EnvoieNouveauxMessages {
     background: rgb(108, 108, 108);
 }
 
+
+
+@media only screen and (min-width: 228px) and (max-width: 1500px){
+    img{
+        scale: 0.5;
+    }
+
+    .LiensDéconnexion{
+        scale: 0.7;
+    }
+
+    .Topics{
+        width: auto;
+        scale: 0.7;
+        font-size: small;
+        
+        left: 95%;
+        z-index: -2;
+
+    }
+    .NavbarLeft{
+        width: 25%;
+        z-index: 5;
+    }
+
+    #menu{
+        scale: 0.7;
+    }
+
+    .TexteConnexion{
+        font-size: small;
+    }
+
+    .newtopic{
+
+        width: 4rem;
+        left:67%;
+        background-position: 1rem;
+        z-index: 5;
+    }
+    .lastmessage{
+        width: 4rem;
+        left:67%;
+        background-position: 0.25rem;
+        z-index: 5;
+        
+    }
+    .tothetop{
+       
+        width: 4rem;
+        left:67%;
+        background-position: 1rem;
+        z-index: 5;
+        
+    }
+
+    .tothetoptopic{
+        width: 4rem;
+        left:50%;
+        background-position: 1rem;
+        z-index: 5;
+        scale: 0.8;
+        margin: 10rem 5rem;
+    }
+
+    #tothetoptexttopic{
+        display: none;
+    }
+
+    .newmessagebutton{
+        width: 4rem;
+        left:50%;
+        background-position: 1rem;
+        z-index: 5;
+        scale: 0.8;
+        margin: 15rem 5rem;
+    
+    }
+
+    #newmessagetext{
+        display: none;
+    }
+
+    #newtopictext{
+        display: none;
+    }
+    #tothetoptext{
+        display: none;
+    }
+
+    #username{
+        margin: 1rem 2rem;
+    }
+
+    .contenuTopic{
+        scale: 0.5;
+      
+        
+        
+    }
+
+    .Parent{
+        top:10vh;
+    }
+
+
+    .ParentTitreTopics{
+        width: 20rem;
+    }
+    
+    h1{
+        font-size: small;
+    }
+
+    .CGU{
+        scale: 0.8;
+        top: -50vh;
+    }
+
+    [name=CGU2]{
+        scale:1.7;
+    }
+
+    .container{
+        scale: 0.5;
+    }
+
+    .textreply{
+        margin-left:17rem ;
+        width: 200px;
+    }
+
+    .policy{
+        height: 180rem;
+    }
+
+
+    .CGU{
+        height: 320rem;
+    }
+
+
+    .ParentNomEquipe{
+        scale: 0.7;
+    }
+
+    .PrésentationEquipe{
+        font-size: small;
+    }
+
+    .ParentNomEquipe{
+        display: grid;
+    }
+
+    .ImageEquipe{
+        margin: 60px;
+    }
+}
