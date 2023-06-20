@@ -49,7 +49,8 @@ var login = template.Must(template.ParseFiles("HTML/Login.html"))
 var register = template.Must(template.ParseFiles("HTML/Register.html"))
 var index = template.Must(template.ParseFiles("HTML/index.html"))
 var topic = template.Must(template.ParseFiles("HTML/Topics.html"))
-var reply = template.Must(template.ParseFiles("HTML/ReponseTopic.html")) // chacune des variables utilise les différent fichiers présents dans le dossier HTML
+
+// chacune des variables utilise les différent fichiers présents dans le dossier HTML
 var cgu = template.Must(template.ParseFiles("HTML/CGU.html"))
 var policy = template.Must(template.ParseFiles("HTML/Politique.html"))
 var about = template.Must(template.ParseFiles("HTML/Equipe.html"))
