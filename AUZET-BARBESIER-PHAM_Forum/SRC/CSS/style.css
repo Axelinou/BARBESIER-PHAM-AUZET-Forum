@@ -1,0 +1,498 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(179, 179, 179);
+} 
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(70, 70, 70);
+    width: 100vw;
+    height: 15vh;
+    border: solid black 1px;
+    position: fixed;
+    top: 0px;
+    z-index: 3;
+}
+
+.TitreForum{
+    text-align: center;
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+.LogoForum{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.Connexion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.LogoConnexion{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+.LogoConnexion:hover{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.LiensDéconnexion{
+    background-color: rgb(70, 70, 70);
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+
+.LiensDéconnexion:hover{
+  scale: 1.05;
+  transition: 0.5s;
+  background-color: rgb(172, 71, 71);
+}
+
+.ImageDéconenxion:hover{
+    
+}
+
+
+
+.ImageDéconenxion{
+    width: 80px;
+    height: 80px;
+    
+}
+
+.Parent{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20vh;
+    left: 10vw;
+    overflow: hidden;
+}
+
+.ParentIndex{
+    display: flex;
+    position: relative;
+    top: 20vh;
+    left: 10vw;
+    overflow: hidden;
+}
+
+/*Navbar Left*/
+
+.NavbarLeft{
+    background-color: rgb(123, 123, 123);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15vw;
+    height: 100vh;
+    position: fixed;
+    left: 0px;
+    top: 15vh;
+}
+
+.TexteNavbar{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*Topics*/
+
+.ParentTopics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    height: auto;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.newtopic{
+    height: 50px;
+    width: 230px;
+    border: 1px transparent;
+    position: fixed;
+    left: 80%;
+    background-image: url(https://raw.githubusercontent.com/deverror6068/images-forum/main/newchat.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    background-position: 11.5rem 0.5rem ;
+    background-color: rgb(21, 68, 35);
+    filter: drop-shadow(5px 5px 5px black);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#newtopictext{
+    margin: 1rem 1rem ;
+}
+
+
+
+
+
+.lastmessage{
+    height: 70px;
+    width: 230px;
+    border: 1px transparent;
+    position: fixed;
+    left: 80%;
+    margin-top: 5rem;
+    background-image: url(https://raw.githubusercontent.com/deverror6068/images-forum/main/last_message.png);
+    background-size: 3.5rem;
+    background-repeat: no-repeat;
+    background-position: 10.5rem 0.25rem ;
+    background-color: rgb(21, 67, 68);
+    filter: drop-shadow(5px 5px 5px black);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+#tonewtopic{
+    text-decoration:none;
+    color: rgb(238, 234, 230);
+}
+#tolastmessage{
+    text-decoration:none;
+    color: rgb(238, 234, 230);
+}
+
+
+.ParentDernierMessages{
+    display: flex;
+    justify-content: center;
+    width: 38vw;
+    height: auto;
+    overflow: hidden;
+    margin: 33px;
+}
+
+
+#lastmsg{
+    font-size: larger;
+    color: rgb(236, 233, 229);
+    margin: 0rem 9rem;
+    font-weight: bolder;
+}
+
+.LiensTopics{
+    text-decoration: none;
+    color: white;
+}
+
+::placeholder {
+    color: rgb(248, 248, 248);
+}
+
+.Topics{
+    background-color: rgb(70, 70, 70);
+    width: 40vw;
+    height: auto;
+    color: white;
+    margin: 10px;
+}
+
+
+[name=feedtopic]{
+    width: 100vh;
+}
+
+.ParentTitreTopics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+   
+}
+
+.TitreTopics{
+    color: white;
+    font-size: 30px;
+    width: 25vw;
+   
+}
+
+.MessagesTopics{
+    width: 30vw;
+    margin-left: 70px;
+    overflow-wrap: break-word;
+    
+}
+
+.DatesHeuresTopics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.Répondre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(123, 123, 123);
+    border: 1px solid rgb(70, 70, 70);
+    width: 100px;
+    height: 30px;
+}
+
+.Réponse{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.Réaction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.Like{
+    width: 60px;
+    height: 
+    
+    60px;
+}
+
+
+#menu{
+    height: 50px;
+    width: 195px;
+    text-align: 0rem 20rem;
+}
+
+#menu:hover{
+
+background-color: #585656;
+border: 1px white solid;
+transition: 0.5s;
+scale:1.05;
+}
+
+.Dislike{
+    width: 45px;
+    height: 45px;   
+}
+
+.FondBlancRéaction{
+    width: 100px;
+    background-color: rgb(123, 123, 123);
+}
+
+/*Page CGU*/
+
+.CGU{
+    
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5vh;
+    background-color: rgb(123, 123, 123);
+    border: 2px solid rgb(70, 70, 70) ;
+    padding: 20px;
+    width: 60vw;
+    height: 90vh;
+}
+
+
+#policy{
+    display: block;
+
+}
+
+
+.inputtext{
+    background-color: rgb(70, 70, 70);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 30vh;
+    margin-left: 20rem;
+    margin-bottom: 5rem;
+    
+}
+
+
+
+#newfeed{
+    margin-left: 0rem;
+}
+
+
+button.EnvoieNouveauxMessages {
+    background-color: rgb(123, 123, 123);
+    color: white;
+    border: 2px solid rgb(70, 70, 70);
+    margin: 10px;
+}
+
+
+
+[name=newmsg]{
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: rgb(123, 123, 123);
+    width: 50vw;
+    height: 10vh;
+}
+
+
+
+#usechart{
+    display: flex;
+}
+
+.TexteCGU{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 55vh;
+    color: white;
+    overflow: hidden;
+}
+
+/*L'équipe Photo */
+
+.ParentImageEquipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(123, 123, 123);
+    width: 70vw;
+}
+
+.ImageEquipe{
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+}
+
+.NomEquipe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 130px;
+}
+
+.Nom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 10vh;
+}
+
+.ParentNomEquipe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+/*L'équipe Présentation */
+
+.ParentPrésentationEquipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(123, 123, 123);
+    width: 70vw;
+    height: 20vh;
+    margin: 20px 0px;
+}
+
+.DescriptifPrésentationEquipe{
+    display: flex;
+    align-items: center;
+    width: 70vw;
+    height: 20vh;
+    overflow: auto;
+}
+
+.PrésentationEquipe{
+    margin: 20px ;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.inputtext {
+    margin-top: 20px;
+}
+
+.textreply{
+    width: 500px;
+    height: 181px;
+    padding-top: 20px;
+    margin-top: 20px;
+   margin-left: 0rem;
+   background-color: antiquewhite;
+   border: 3px solid rgb(255, 253, 253);
+   
+}
+
+
+.ReponseMessage{
+    height: 500px;
+   
+}
+
+
+.EnvoieNouveauxMessages{
+    width: 150px;
+    margin-top: 10px;
+    height: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color:rgb(123, 123, 123);
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.contenuTopic {
+    border: solid;
+    margin: 20px;
+    background: rgb(108, 108, 108);
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="http://localhost:8080/"><img class="LogoForum" src="https://raw.githubusercontent.com/deverror6068/images-forum/79a716b637394ddfc4618737241c18b877ad25e5/Libre.png" alt="Logo Libredit"></a>
+        <h1 class="TitreForum">Libredit</h1>
+        <p  style="text-decoration: none;" id="username">{{.Connecté}}</p> 
+        <a href="http://localhost:8080/login">
+            
+            <div class="Connexion">
+                <p class="TexteConnexion">&nbsp;&nbsp; &nbsp;Connexion    </p>
+                <img class="LogoConnexion" src="https://raw.githubusercontent.com/deverror6068/images-forum/main/LogoConnexion.png" alt="Img Connexion">
+            </div>
+        </a>
+    </div>
+
+ 
+
+    <div class="NavbarLeft">
+        <a class="TexteNavbar" id="menu" href="http://localhost:8080/policy">Politique de confidentialité</a>
+        <a class="TexteNavbar" id="menu" href="http://localhost:8080/cgu">CGU</a>
+        <a class="TexteNavbar" id="menu" href="http://localhost:8080/about">L'équipe</a>
+        <a class="TexteNavbar" id="menu" href="http://localhost:8080/contactus">Nous contacter</a>
+
+        <a class="LiensDéconnexion"   href="http://localhost:8080/logout">
+            <img class="ImageDéconenxion" src="https://raw.githubusercontent.com/deverror6068/images-forum/main/deconnexion.png" alt="Déconnexion">
+            <form  method='POST'action='http://localhost:8080/logout'><button  name='logout' type='submit' value=''> Deconnexion </button></form>
+        </a>
+    </div>
+
+    <div class="ParentIndex">
+        <div class="newtopic">
+           <a id="tonewtopic" href="http://localhost:8080/#newtopic"> <p id="newtopictext">Créer un nouveau topic </p> </a>
+         </div>
+         <div class="lastmessage">
+            <a id="tolastmessage" href="http://localhost:8080/#latestmessage"> <p id="newtopictext">Acceder au dernier message</p> </a>
+          </div>
+    
+
+                </div>
+            </a>
+        </div>
+
+        <div class="ParentDernierMessages">
+            <a  class="LiensTopics" href="http://localhost:8080/Topics.html">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style-login.css">
+    <title>Login Forum</title>
+</head>
+<body>
+
+    <div class="header">
+        <a href="http://localhost:8080/"><img class="LogoForum" src="https://raw.githubusercontent.com/deverror6068/images-forum/79a716b637394ddfc4618737241c18b877ad25e5/Libre.png" alt="Logo Libredit"></a>
+        <h1 class="TitreForum">Libredit</h1>
+        <a href="../page/Login.html">
+            <div class="Connexion">
+                <p class="TexteConnexion">Connexion</p>
+                <img class="LogoConnexion" src="https://raw.githubusercontent.com/deverror6068/images-forum/main/LogoConnexion.png" alt="Img Connexion">
+            </div>
+        </a>
+    </div>
+    <div class="Parent">
+        <div class="NavbarLeft">
+            <a class="TexteNavbar" id="menu" href="http://localhost:8080/policy">Politique de confidentialité</a>
+            <a class="TexteNavbar" id="menu" href="http://localhost:8080/cgu">CGU</a>
+            <a class="TexteNavbar" id="menu" href="http://localhost:8080/about">L'équipe</a>
+            <a class="TexteNavbar" id="menu" href="http://localhost:8080/contactus">Nous contacter</a>
+        </div>
+        <div class="container">
+            <form action="">
+                <h1>Login Forum</h1>
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="text" class="form-control" name="mail" id="Email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Password" required>
+                </div>
+                <div class="CréationCompte">
+                    <input type="submit" class="btn" value="Login">
+                    <a class="LiensCréationCompte" href="http://localhost:8080/register">Je n'ai pas de compte</a>   
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
