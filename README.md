@@ -21,3 +21,6 @@ Ceci est un projet de forum développé dans le cadre de [Ynov]. Le forum est co
 * Deuxieme etape : ouvrer le fichier "sql.go" tout seul, sans l'ouvrir avec le dossier puis executer le (surtout si vous utilisez VScode)
 * Derniere etape : taper "localhost:8080" sur votre navigateur
 * Et n'oubliez pas de vous connecter pour bénéficier des fonctionnalités du forums
+
+#Structure  
+* le dossier  AUZET-BARBESIER-PHAM_Forum contient  le projet  il est composé du dossier SRC  qui contient les différents dossier : DATABASE qui contient la base de donnée à importer, le dossier CSS , et le  dossier  HTML sql.go permet d'executer de lancer le serveur
