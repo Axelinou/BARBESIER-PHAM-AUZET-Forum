@@ -929,6 +929,7 @@ func HttpAnswerHandler(w http.ResponseWriter, r *http.Request) {
 		}
 
 		data := ""
+		data = data + "<div class='tohome'><a id='tohomemessage' href='http://localhost:8080/'> <p id='tohometext'>Retour à l'acceuil</p> </a></div>"
 		//génération du la div qui permet à l'utilisateur de visualiser le message  de la personne à qui il répond
 		data = data + "<div class='Parent'><h1>Réponse à  " + tab[4] + " " + tab[3] + "</h1><a href ='http://localhost:8080/topic/" + tab[5] + "' style='color:none;text-decoration:none;color:white;'><div class='contenuTopic' style='margin:0rem -1rem;'><div class='DatesHeuresTopics'><p class='Heures'> Posté le  " + dateheure + "&nbsp;</p><p class='Auteur'> " + tab[4] + " " + tab[3] + "  a dit :&nbsp;</p></div><div class='ParentTitreTopics'><p class='MessagesTopics'>" + contenumsg + "</p></div></div></a><div class='ReponseMessage'><label for='mess'>Votre message<form> <button class='EnvoieNouveauxMessages' style='margin :0rem 19rem;' type='submit'>Envoyer message</button></label><div class='replyareatext'><textarea name='reply' class='textreply' >entrez votre réponse </textarea></div></form></div></div>"
 		var reply = r.FormValue("reply")

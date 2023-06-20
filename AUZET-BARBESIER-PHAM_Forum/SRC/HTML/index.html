@@ -11,7 +11,7 @@
         <a href="http://localhost:8080/"><img class="LogoForum" src="https://raw.githubusercontent.com/deverror6068/images-forum/79a716b637394ddfc4618737241c18b877ad25e5/Libre.png" alt="Logo Libredit"></a>
         <h1 class="TitreForum">Libredit</h1>
         <p  style="text-decoration: none;" id="username">{{.Connecté}}</p> 
-        <a href="http://localhost:8080/login">
+        <a href="http://localhost:8080/login" id ="connexionlink">
             
             <div class="Connexion">
                 <p class="TexteConnexion">&nbsp;&nbsp; &nbsp;Connexion    </p>
@@ -28,7 +28,7 @@
 
         <a class="LiensDéconnexion"   href="http://localhost:8080/logout">
             <img class="ImageDéconenxion" src="https://raw.githubusercontent.com/deverror6068/images-forum/main/deconnexion.png" alt="Déconnexion">
-            <form  method='POST'action='http://localhost:8080/logout'><button  name='logout' type='submit' value=''> Deconnexion </button></form>
+            <form  method='POST'action='http://localhost:8080/logout'><button id="logoutbutton" name='logout' type='submit' value=''> Deconnexion </button></form>
         </a>
     </div>
 
@@ -41,7 +41,7 @@
           </div>
 
           <div class="tothetop">
-            <a id="tothetopmessage" href="http://localhost:8080/"> <p id="tothetoptext">Retour en haut de page</p> </a>
+            <a id="tothetopmessage" href="http://localhost:8080/"> <p id="tothetoptext">Retour à l'Accueil</p> </a>
           </div>
     
 
