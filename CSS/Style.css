@@ -1,153 +1,69 @@
 body{
     display: flex;
     flex-direction: column;
-}
-
-/*Index Header */
-
-.FondBleuClaireHeader{
-    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(194,211,254);
-    width: 100%;
-    height: 100px;   
-}
-
-.FondBleuClaire {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(194,211,254);
-    width: 100%;
-    height: 100px;
-}
-
-.FondBleuFoncerHeader {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(106,121,255);
-    width: 83vw;
-    height: 50px;
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(179, 179, 179);
 } 
 
-.FondBleuFoncer {
+.header{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background-color: rgb(106,121,255);
-    width: 83vw;
-    height: 50px;
-} 
-
-.LogoConnexion{
-    width: 60px;
-    height: 60px;
+    background-color: rgb(70, 70, 70);
+    width: 100vw;
+    height: 15vh;
+    border: solid black 1px;
+    position: fixed;
+    top: 0px;
+    z-index: 3;
 }
 
-.LiensConnexion{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.TitreForum{
+    text-align: center;
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+.LogoForum{
     width: 100px;
     height: 100px;
-    color: rgb(106,121,255);
-    text-decoration: none;
-    margin-left: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
 }
 
-.LiensConnexion :hover{
-    zoom: 110%;
+.Options{
+    display: none;
 }
 
 .Connexion{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
-/*Déconnexion*/
-
-.Déconnexion{
-    width: 100px;
-    height: 100px;
-    background-color: rgb(106,121,255);
-    position: fixed;
-    right: 20px;
-    top: 400px
-}
-
-.ImageDéconnexion{
-    width: 50px;
-    height: 50px;
+.LogoConnexion{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
 }
 
 .LiensDéconnexion{
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.TexteDéconnexion{
+    background-color: rgb(70, 70, 70);
     color: white;
-    font-size: 15px;
-}
-
-.LiensDéconnexionBas{
     text-decoration: none;
-    color: rgb(106,121,255);
+    padding: 10px 25px;
 }
 
-.DéconnexionBas{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin:10px;
-}
-
-/*Page Connexion*/
-.CréationCompte{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    text-decoration: none;
-    color: rgb(106,121,255);
-}
-
-.FondBleuFoncerDescription{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(106,121,255);
-    width: 83vw;
-    height: 50px;
-    border-radius: 5%;
-}
-
-.LiensRetourAccueil{
-    display: flex;
-}
-
-.TexteLiensRetourAccueil{
-    text-decoration: none;
-    color:rgb(106,121,255);
-    font-size: 20px;
-    text-align: left;
-    margin-left: 200px;
-}
-
-.TitreForum{
-    color: white;
-}
-
-.TitrePage{
-    color: white;
+.ImageDéconenxion{
+    width: 80px;
+    height: 80px;
 }
 
 .Parent{
@@ -155,247 +71,330 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px;
+    position: relative;
+    top: 20vh;
+    left: 10vw;
+    overflow: hidden;
 }
 
-/*Index Présentation */
-
-.FondBleuPrésentationBienvenue{
+.ParentIndex{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(194,211,254);
-    text-align: center;
-    border-radius: 5%;
+    position: relative;
+    top: 20vh;
+    left: 10vw;
+    overflow: hidden;
     width: 80vw;
-    height: 35vh;
-    margin: 30px;
+    height: 100vh;
 }
 
-.FondBlancPrésentation{
+/*Navbar Left*/
+
+.NavbarLeft{
+    background-color: rgb(123, 123, 123);
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-color: white;
-    border-radius: 5%;
-    overflow: auto;
-    width: 70vw;
-    height: 20vh;
+    width: 15vw;
+    height: 100vh;
+    position: fixed;
+    left: 0px;
+    top: 15vh;
 }
 
-.ContenueAccueil{
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
-
-ul{
-    list-style-type: none;
-}
-
-.LiensTopic{
-    color: black;
+.TexteNavbar{
+    margin: 20px;
+    color: white;
     text-decoration: none;
-}
-
-/*Index Sujet */
-
-.FondBleuClaireSujet{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(194,211,254);
-    height: 100vh;
-    width:35vw;
-    text-align: center;
-    overflow: auto;
-    border-radius: 5%;
-    margin-right: 50px;
-    margin-bottom: 50px;
-}
-
-.FondBlancSujet{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    padding: 10px;
-    width: 28vw;
-    height: 100px;
-    margin-top: 30px;
-    border-radius: 5%;
-}
-
-.TitreSujet{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
-    overflow: auto;
-}
-
-.DateHeurSujet{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
-}
-
-.ContenueSujet{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/*Index Dernier message */
-
-.FondBleuClaireDernierMessage{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(194,211,254);
-    height: 100vh;
-    width:35vw;
-    margin-left: 50px;
-    margin-bottom: 50px;
-    text-align: center;
-    overflow: auto;
-    border-radius: 5%;
-}
-
-.FondBlancDernierMessage{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    padding: 10px;
-    width: 28vw;
-    height: 20vh;
-    margin-bottom: 30px;
-    border-radius: 5%;
-}
-
-.FondBlancDernierMessage :hover{
-    zoom:102%;
-}
-
-.TitreDateHeureDernierMessage{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.TitrePoste{
-    margin-right: 10rem;
-}
-
-.Messages{
-    display: flex;
     font-size: 20px;
-    overflow: auto;
+    text-align: center;
 }
 
-.AuteurPoste{
-    text-align: right;
+.retourAceuil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(123, 123, 123);
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    width: 50vw;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid rgb(70, 70, 70);
+}
+
+.CréationTopics{
+    background-color: rgb(70, 70, 70) ;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+/*Topics*/
+
+.TiterSujet{
+    color: rgb(70, 70, 70);
+}
+
+.TitreDernierMessages{
+    color: rgb(70, 70, 70);
+}
+
+.ParentTopics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.ParentTopics2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    overflow: hidden;
+}
+
+.ParentDernierMessages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    height: 100vh;
+    margin-top: -25px;
+
+  }
+
+.LiensTopics{
+    text-decoration: none;
+    color: white;
+}
+
+.Topics2{
+    background-color: rgb(70, 70, 70);
+    width: 40vw;
+    height: 30vh;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.Topics{
+    background-color: rgb(70, 70, 70);
+    width: 70vw;
+    height: 30vh;
+    color: white;
+    margin: 20px 0px;
+}
+
+.ParentTitreTopics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 10vh;
+}
+
+.TitreTopics{
+    color: white;
+    font-size: 30px;
+    width: 25vw;
+    height: 10vh;
+}
+
+.MessagesTopics{
+    overflow-y: auto;
+    overflow-wrap: break-word;
+    width: 30vw;
+    height: 110vh;
+    margin-left: 70px;
+}
+
+.DatesHeuresTopics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.DatesHeuresTopics h1 {
+    height: 35px;
+}
+
+.Répondre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(123, 123, 123);
+    border: 1px solid rgb(70, 70, 70);
+    width: 100px;
+    height: 30px;
+}
+
+.ParentRéponse{
+    background-color: rgb(70, 70, 70);
+    width: 70vw;
+    height: 30vh;
+    color: white;
+    margin: 10px;
+}
+
+.TitreRéponseAuteur{
+    color: white;
+    font-size: 30px;
+    margin-right: 30px;
+}
+
+.Réponse{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.Réaction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.Like{
+    width: 60px;
+    height: 60px;
+}
+
+.Dislike{
+    width: 45px;
+    height: 45px;   
 }
 
 /*Nouveau messages*/
 
 .inputtext{
-    background-color: rgb(194,211,254) ;
-    width: 80vw;
-    height: 25vh;
+    background-color:rgb(70, 70, 70);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 5%;
+    width: 70vw;
+    height: 30vh;
 }
 
 [name=newmsg]{
-    width: 70vw;
-    height: 10vh;
-    border-radius: 5%;
     border: 1px solid transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10px;
     font-size: 15px;
+    background-color: rgb(123, 123, 123);
+    width: 50vw;
+    height: 10vh;
 }
 
-.EnvoieNouveauxMessages{
-    border: 2px solid rgb(106,121,255);
-    background-color:rgb(194,211,254) ;
-    color:rgb(106,121,255);
-    margin-left: 10px;
-    font-size: 15px;
+button.EnvoieNouveauxMessages{
+    background-color: rgb(123, 123, 123);
+    color: white;
+    border: 2px solid rgb(70, 70, 70);
+    margin: 10px;
+    padding: 10px;
+}
+
+.RetourTopics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(123, 123, 123);
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    width: 50vw;
+    padding: 10px;
+    border: 2px solid rgb(70, 70, 70);
+}
+
+/*Page CGU*/
+
+.CGU{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-color: rgb(123, 123, 123);
+    border: 2px solid rgb(70, 70, 70);
+    padding: 20px;
+    width: 60vw;
+}
+
+.TexteCGU{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
 }
 
 /*L'équipe Photo */
 
-.FondBleuClairePhoto{
+.ParentImageEquipe{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(194,211,254);
-    border-radius: 5%;
-    padding: 2rem 8rem;
-}
-
-.FondBlancPhoto{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    padding: 1rem 3rem;
-    border-radius: 5%;
+    background-color: rgb(123, 123, 123);
+    width: 70vw;
 }
 
 .ImageEquipe{
     width: 300px;
     height: 450px;
-    margin: 10px;
-    border-radius: 5%;
+    margin: 20px;
 }
 
 .NomEquipe{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0px 130px;
 }
 
-.FondBlancNomEquipe{
+.Nom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 10vh;
+}
+
+.ParentNomEquipe{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
-    border-radius: 5%;
-    margin: 10px 100px;
-    padding: 2px 10px;
+    background-color: rgb(70, 70, 70);
+    color: white;
 }
 
 /*L'équipe Présentation */
 
-.FondBleuClairePrésentationEquipe{
+.ParentPrésentationEquipe{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(194,211,254);
-    border-radius: 5%;
-    width: 80vw;
-    height: 35vh;
-    margin-top: 20px;
+    background-color: rgb(123, 123, 123);
+    width: 70vw;
+    height: 20vh;
+    margin: 20px 0px;
 }
 
-.FondBlancPrésentationEquipe{
+.DescriptifPrésentationEquipe{
     display: flex;
     align-items: center;
-    background-color: white;
-    border-radius: 5%;
     width: 70vw;
     height: 20vh;
     overflow: auto;
@@ -405,140 +404,12 @@ ul{
     margin: 20px ;
     text-align: left;
     font-size: 20px;
-}
-
-/*Topic */
-
-.FondBleuClaireMessages{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgb(194,211,254);
-    border-radius: 5%;
-    width: 80vw;
-    height: 35vh;
-    margin-bottom: 50px;
-
-}
-
-.ContenueFondBlancMessage{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.ContenueFondBlanc{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.FondBlancMessages{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    border-radius: 5%;
-    width: 70vw;
-    height: 22vh;
-    overflow: auto;
-    padding: 0px 10px;
-}
-
-.TitreMessagePostes{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 70vw;
-    height:50px;
-}
-
-.Auteur{
-    text-align: right;
-}
-
-.ContenueRéaction{
-    display: flex;
-    margin-left: 100px;
-}
-
-.FondBlancRéaction{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    border: 2px solid rgb(106,121,255);
-    margin: 20px;
-    color: rgb(106,121,255);
-    font-size: 20px;
-    width: 100px;
-    height: 40px;
-}
-
-.Reaction{
-    background-color: transparent;
-    border: transparent;
-}
-
-.RéactionLikeDislike{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.PhotoLike{
-    width: 50px;
-    height: 50px;
-}
-
-.PhotoDislike{
-    width: 40px;
-    height: 40px;
-}
-
-.RéactionLikeDislike :hover{
-    zoom: 110%;
-    transform: rotate(360deg);
-}
-
-.TitreRéponse{
-    margin-left: 50px;
-}
-
-.TexteCGU{
-    background-color: rgb(194,211,254);
-    padding: 50px;
-    border-radius: 5%;
-}
-
-/*Footer*/
-
-.LiensFooter{
     color: white;
-    text-decoration: none;
-    margin: 50px;
-    font-size: 20px;
 }
 
-.FondBlancSujet :hover{
-    zoom: 105%;
-}
 
-/*Responsive*/
-
+/*responsive*/
 @media (max-width: 1206px) {
-
-    body{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .Déconnexion{
-        display: none;
-    }
 
     /*Responsive Header*/
 
@@ -671,7 +542,7 @@ ul{
     .LiensFooter{
         margin:10px;
     }
-  }
+}
 
   @media (max-width: 550px) {
 
