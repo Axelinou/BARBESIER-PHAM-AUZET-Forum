@@ -713,7 +713,8 @@ func httpHandlerTopic(w http.ResponseWriter, r *http.Request) {
 			fmt.Println(dislikecount)
 
 			defer select6.Close()
-
+			data_msg = data_msg + " <div class='newmessagebutton'><a id='tonewmessage' href='http://localhost:8080/topic/" + strconv.Itoa(id) + "#newfeed'> <p id='newmessagetext'>Créer un nouveau message </p> </a></div>"
+			data_msg = data_msg + "  <div class='tothetoptopic'>  <a id='tothetopmessagetopic' href='http://localhost:8080/topic/" + strconv.Itoa(id) + "'> <p id='tothetoptexttopic'>Retour en haut de page</p> </a></div>"
 			data_msg = data_msg + " <div class='ParentTopics'>" //div qui   stocke chaque message
 			if strings.Contains(contenu, "Ø") {                 // si le messages est une reponse
 				var temp string
@@ -853,6 +854,8 @@ func HttpAnswerHandler(w http.ResponseWriter, r *http.Request) {
 		}
 
 	}
+
+	fmt.Println(tab, "TAB")
 	if id_compte == 0 { // si l'utilisateur n'est pas connecté
 		nom_session = "non"
 		prenom_session = "connecté"
